@@ -9,6 +9,7 @@ setup(
     author="wookimodo",
     author_email="rudghk1437@naver.com",
     packages=["my_api"],
+    zip_safe=False,
     install_requires = [
         "requests"
     ]
